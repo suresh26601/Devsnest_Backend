@@ -1,0 +1,15 @@
+{
+  "name": "backend_learn",
+  "version": "1.0.0",
+  "description": "this is my node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "author": "shunya",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}

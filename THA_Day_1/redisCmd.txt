@@ -1,0 +1,24 @@
+redis server                            <for start radis server> 
+redis cli                               <for start redis command line interface>
+SET KEY VALUE                           <{KAY:VALUE}>
+GET KEY                                 <get KEY's value>
+DEL KEY                                 <delete KEY and its value>
+EXISTS KEY                              <check KEY exists or not>
+KEYS*                                   <show all keys>
+FLUSHALL                                <delete all keys>
+TTL KEY                                 <shows KEY's time to live>
+EXPIRE KEY TIME(in seconds)             <set expiry time of the exists key>
+SETEX KEY TIME VALUE                    <set key and its expiry>
+LPUSH ARR_NMAE ARR_VALUES               <push the ARR_VALUES in left side of array ARR_NMAE>
+RPUSH ARR_NAME ARR_VALUES               <push the ARR_VALUES in right side of array ARR_NMAE>
+LRANGE ARR_NAME START_INX END_INX       <travesal of array's element>
+LPOP ARR_NAME                           <delete array's element from left side>
+RPOP ARR_NAME                           <delete array's element from right side>
+SADD SET_NAME SET_VALUES                <make a set(for unique values) and set the key>
+SMEMBERS SET_NAME                       <give the value of key in set>
+SREM SET_NAME SET_VALUE                 <delete value from set>
+HSET HASH_NAME KEY VALUE                <make hash {HASH_NAME: {key : value}}>
+HGET HASH_NAME KEY                      <get hash HASH_NAME's key's value>
+HGETALL HASH_NAME                       <get all keys and values of hash HASH_NAME>
+HDEL HASH_NAME KEY                      <delete key and its value from the hash>
+HEXISTS HASH_NAME KEY                   <check if the key exists or not in hash>

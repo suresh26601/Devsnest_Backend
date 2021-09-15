@@ -1,0 +1,22 @@
+DATATYPE                            ALIASES                     DESCRIPTTION
+
+boolean	                            bool	                    logical Boolean (true[1, yes, y, t, true]/false[0, no, false, f])
+character(n)    	                char(n) 	                fixed-length character string
+character varying(n)	            varchar(n)     	            variable-length character string
+text	 	                                                    variable-length character string
+integer	                            int, int4	                signed four-byte integer
+serial	                            serial4	                    autoincrementing four-byte integer
+bigserial	                        serial8	                    autoincrementing eight-byte integer
+real	                            float4	                    single precision floating-point number (4 bytes)
+numeric(p, s)	                    decimal(p, s)	            exact numeric of selectable precision
+date	 	                                                    calendar date (year, month, day)
+time(p) [without time zone]	 	                                time of day (no time zone)[can be set by HH:MI:SS.pppp]
+time(p) with time zone	            timetz	                    time of day, including time zone
+timestamp(p) [ without time zone ]	 	                        date and time (no time zone)
+timestamp(p) with time zone	        timestamptz	                date and time, including time zone
+interval (fields) (p) 	                                        time span [interval '2 months ago']
+json	 	                                                    textual JSON data
+jsonb	 	                                                    binary JSON data, decomposed
+uuid	 	                                                    universally unique identifier
+xml                                                       	 	XML data
+bit(n)	                     	                                fixed-length bit string
